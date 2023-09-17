@@ -14,7 +14,6 @@ const Card = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
 
   useEffect(() => {
-    // Ketika lebar layar berubah, periksa dan perbarui kondisi isLargeScreen
     setIsLargeScreen(width > 375);
   }, [width]);
   useEffect(() => {
