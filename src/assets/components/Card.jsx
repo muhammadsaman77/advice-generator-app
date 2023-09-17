@@ -14,7 +14,7 @@ const Card = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
 
   useEffect(() => {
-    setIsLargeScreen(width > 375);
+    setIsLargeScreen(width > 420);
   }, [width]);
   useEffect(() => {
     async function fetchData() {
